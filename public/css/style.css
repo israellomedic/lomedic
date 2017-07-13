@@ -1,0 +1,69 @@
+/*Logo animation*/
+object {
+        -webkit-transition: -webkit-transform ease-in-out 0.3s, background 0.2s;
+        -moz-transition: -moz-transform ease-in-out 0.3s, background 0.2s;
+        transition: transform ease-in-out 0.3s, background 0.2s;
+}
+object:hover {
+        -webkit-transform: scale(0.90);
+        -moz-transform: scale(0.90);
+        -ms-transform: scale(0.90);
+        transform: scale(0.90);
+}
+
+/*Sistem stuff*/
+body{
+  background: #f4f4f4;
+}
+/*Nav*/
+.side-nav{
+  height: 100%;
+}
+.side-nav li.active {
+    background-color: rgba(0,0,0,0.2);
+}
+/*Ésta linea de código sirve para cuando queremos mostrar el ícono (propuesta 1)*/
+.nav-wrapper a.button-collapse{
+  display:inline;
+}
+/*Código para mover el contenido en caso de que sea la 2da propuesta*/
+header, main, footer {
+  padding-left: 300px;
+}
+@media only screen and (max-width : 992px) {
+header, main, footer {
+  padding-left: 0;
+  }
+}
+/*Notifications dropdown*/
+.dropdown-content {
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 300px; /* Width del componente */
+  max-height: auto;
+  margin-left: -1px; /* Esto sirve para mantener el contenido alineado al ícono */
+  overflow: hidden; /* Podría usarse overflow-y:auto; en caso de mostrar mas contenido */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  will-change: width, height;
+}
+.dropdown-content li > a, .dropdown-content li > span{
+  color: rgba(0,0,0,0.87);
+}
+.dt-buttons{
+  float: right !important;
+}
+/*Estílo de los botones para DataTables*/
+.dt-button,.paginate_button{
+    font-size: 1rem !important;
+    border-radius: 2px !important;
+    display: inline-block !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    padding: 0 1rem !important;
+    text-transform: uppercase !important;
+    vertical-align: middle !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
