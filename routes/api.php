@@ -13,6 +13,12 @@ use Illuminate\Http\Request;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
+=======
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic

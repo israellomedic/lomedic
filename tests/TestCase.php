@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
     /**
@@ -22,4 +23,13 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         return $app;
     }
+=======
+namespace Tests;
+
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+
+abstract class TestCase extends BaseTestCase
+{
+    use CreatesApplication;
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
 }

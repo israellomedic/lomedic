@@ -32,8 +32,13 @@ return [
 
         'pusher' => [
             'driver' => 'pusher',
+<<<<<<< HEAD
             'key' => env('PUSHER_KEY'),
             'secret' => env('PUSHER_SECRET'),
+=======
+            'key' => env('PUSHER_APP_KEY'),
+            'secret' => env('PUSHER_APP_SECRET'),
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
             'app_id' => env('PUSHER_APP_ID'),
             'options' => [
                 //

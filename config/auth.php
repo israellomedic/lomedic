@@ -67,6 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
+<<<<<<< HEAD
             'model' => abisa\User::class,
         ],
 
@@ -84,6 +85,21 @@ return [
     | Here you may set the options for resetting passwords including the view
     | that is your password reset e-mail. You may also set the name of the
     | table that maintains all of the reset tokens for your application.
+=======
+            'model' => App\User::class,
+        ],
+
+        // 'users' => [
+        //     'driver' => 'database',
+        //     'table' => 'users',
+        // ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Resetting Passwords
+    |--------------------------------------------------------------------------
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
     |
     | You may specify multiple password reset configurations if you have more
     | than one user table or model in the application and you want to have

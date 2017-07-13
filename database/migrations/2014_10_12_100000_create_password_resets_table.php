@@ -15,6 +15,7 @@ class CreatePasswordResetsTable extends Migration
     {
         Schema::create('password_resets', function (Blueprint $table) {
             $table->string('email')->index();
+<<<<<<< HEAD
             $table->string('token')->index();
             $table->timestamp('created_at')->nullable();
         });
@@ -28,5 +29,20 @@ class CreatePasswordResetsTable extends Migration
     public function down()
     {
         Schema::drop('password_resets');
+=======
+            $table->string('token');
+            $table->timestamp('created_at')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('password_resets');
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
     }
 }

@@ -9,6 +9,7 @@ define('LARAVEL_START', microtime(true));
 |
 | Composer provides a convenient, automatically generated class loader
 | for our application. We just need to utilize it! We'll require it
+<<<<<<< HEAD
 | into the script here so that we do not have to worry about the
 | loading of any our classes "manually". Feels great to relax.
 |
@@ -32,3 +33,11 @@ $compiledPath = __DIR__.'/cache/compiled.php';
 if (file_exists($compiledPath)) {
     require $compiledPath;
 }
+=======
+| into the script here so we do not have to manually load any of
+| our application's PHP classes. It just feels great to relax.
+|
+*/
+
+require __DIR__.'/../vendor/autoload.php';
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic

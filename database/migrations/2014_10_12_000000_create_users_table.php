@@ -30,6 +30,10 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
+<<<<<<< HEAD
         Schema::drop('users');
+=======
+        Schema::dropIfExists('users');
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
     }
 }

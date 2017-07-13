@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace abisa\Http\Middleware;
+=======
+namespace App\Http\Middleware;
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

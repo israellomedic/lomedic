@@ -30,8 +30,13 @@ return [
     ],
 
     'stripe' => [
+<<<<<<< HEAD
         'model' => abisa\User::class,
         'key' => env('STRIPE_KEY','Qwerty'),
+=======
+        'model' => App\User::class,
+        'key' => env('STRIPE_KEY'),
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
         'secret' => env('STRIPE_SECRET'),
     ],
 

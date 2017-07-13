@@ -9,8 +9,17 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
+<<<<<<< HEAD
         <testsuite name="Application Test Suite">
             <directory suffix="Test.php">./tests</directory>
+=======
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
         </testsuite>
     </testsuites>
     <filter>

@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace abisa\Console;
+=======
+namespace App\Console;
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

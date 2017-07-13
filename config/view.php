@@ -14,7 +14,11 @@ return [
     */
 
     'paths' => [
+<<<<<<< HEAD
         realpath(base_path('resources/views')),
+=======
+        resource_path('views'),
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
     ],
 
     /*

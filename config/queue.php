@@ -7,7 +7,11 @@ return [
     | Default Queue Driver
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | The Laravel queue API supports a variety of back-ends via an unified
+=======
+    | Laravel's queue API supports an assortment of back-ends via a single
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
     | API, giving you convenient access to each back-end using the same
     | syntax for each one. Here you may set the default queue driver.
     |

@@ -11,12 +11,22 @@
 |
 */
 
+<<<<<<< HEAD
 $factory->define(abisa\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [
         'name' => $faker->name,
         'email' => $faker->safeEmail,
+=======
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\User::class, function (Faker\Generator $faker) {
+    static $password;
+
+    return [
+        'name' => $faker->name,
+        'email' => $faker->unique()->safeEmail,
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
         'password' => $password ?: $password = bcrypt('secret'),
         'remember_token' => str_random(10),
     ];

@@ -15,4 +15,8 @@ use Illuminate\Foundation\Inspiring;
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
+<<<<<<< HEAD
 });
+=======
+})->describe('Display an inspiring quote');
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic

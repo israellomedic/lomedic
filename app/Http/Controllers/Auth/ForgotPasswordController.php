@@ -1,8 +1,14 @@
 <?php
 
+<<<<<<< HEAD
 namespace abisa\Http\Controllers\Auth;
 
 use abisa\Http\Controllers\Controller;
+=======
+namespace App\Http\Controllers\Auth;
+
+use App\Http\Controllers\Controller;
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

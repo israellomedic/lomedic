@@ -14,6 +14,10 @@ return [
     */
 
     'previous' => '&laquo; Previous',
+<<<<<<< HEAD
     'next'     => 'Next &raquo;',
+=======
+    'next' => 'Next &raquo;',
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
 
 ];

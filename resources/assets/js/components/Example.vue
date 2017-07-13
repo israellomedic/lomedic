@@ -16,8 +16,13 @@
 
 <script>
     export default {
+<<<<<<< HEAD
         ready() {
             console.log('Component ready.')
+=======
+        mounted() {
+            console.log('Component mounted.')
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
         }
     }
 </script>

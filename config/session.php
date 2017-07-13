@@ -161,7 +161,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'secure' => false,
+=======
+    'secure' => env('SESSION_SECURE_COOKIE', false),
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
 
     /*
     |--------------------------------------------------------------------------

@@ -46,6 +46,7 @@ return [
 
         'file' => [
             'driver' => 'file',
+<<<<<<< HEAD
             'path' => storage_path('framework/cache'),
         ],
 
@@ -57,6 +58,19 @@ return [
                 env('MEMCACHED_PASSWORD'),
             ],
             'options'    => [
+=======
+            'path' => storage_path('framework/cache/data'),
+        ],
+
+        'memcached' => [
+            'driver' => 'memcached',
+            'persistent_id' => env('MEMCACHED_PERSISTENT_ID'),
+            'sasl' => [
+                env('MEMCACHED_USERNAME'),
+                env('MEMCACHED_PASSWORD'),
+            ],
+            'options' => [
+>>>>>>> branch 'develop' of https://github.com/israellomedic/lomedic
                 // Memcached::OPT_CONNECT_TIMEOUT  => 2000,
             ],
             'servers' => [
