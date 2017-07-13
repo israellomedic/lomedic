@@ -1,2 +1,2 @@
 # lomedic
-sistema con larabel
+sistema con laravel
