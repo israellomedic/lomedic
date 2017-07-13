@@ -1,2 +1,0 @@
-# lomedic
-sistema con larabel
